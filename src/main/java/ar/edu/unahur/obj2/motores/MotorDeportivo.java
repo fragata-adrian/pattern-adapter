@@ -1,6 +1,7 @@
 package ar.edu.unahur.obj2.motores;
 
-public class MotorDeportivo implements Motor {
+public class MotorDeportivo implements Motor{
+
     private int caballosDeFuerza = 320;
     private String transmision = "Manual";
     private String combustible = "Nafta";

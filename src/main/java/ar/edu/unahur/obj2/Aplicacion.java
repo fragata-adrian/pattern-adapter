@@ -1,9 +1,9 @@
 package ar.edu.unahur.obj2;
 
-import ar.edu.unahur.obj2.motores.AdaptadorMotorElectrico;
 import ar.edu.unahur.obj2.motores.MotorDeportivo;
 import ar.edu.unahur.obj2.motores.MotorEconomico;
 import ar.edu.unahur.obj2.motores.MotorElectrico;
+import ar.edu.unahur.obj2.motores.AdaptadorMotorElectrico;
 
 import java.util.Scanner;
 
