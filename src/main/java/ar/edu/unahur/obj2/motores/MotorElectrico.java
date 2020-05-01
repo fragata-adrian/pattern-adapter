@@ -1,42 +1,27 @@
 package ar.edu.unahur.obj2.motores;
-
+/*
+* Recordar que esta clase no puede ser modificada!!
+*/
 public class MotorElectrico {
-
-    private boolean connected = false;
+    private int horsepower;
+    private String transmission;
+    private String fuel;
 
     public MotorElectrico() {
-        System.out.println("Creando motor electrico");
+        this.horsepower = 220;
+        this.transmission = "Automatic";
+        this.fuel = "Energy";
     }
 
-    public void connect() {
-        System.out.println("Conectando motor electrico");
-        this.connected = true;
+    public int getHorsepower() {
+        return horsepower;
     }
 
-    public void activate() {
-        if (!this.connected) {
-            System.out.println("No se puede activar porque no esta conectado el motor electrico");
-        }
-        else {
-            System.out.println("Esta conectado, activando motor electrico....");
-        }
+    public String getTransmission() {
+        return transmission;
     }
 
-    public void speedUp() {
-        System.out.println("Moviendo mas rapido...aumentando voltaje");
-    }
-
-    public void stop() {
-        if (!this.connected) {
-            System.out.println("No se puede detener motor electrico porque no esta conectado");
-        }
-        else {
-            System.out.println("Deteniendo motor electrico");
-        }
-    }
-
-    public void disconnect() {
-        System.out.println("Desconectando motor electrico...");
-        this.connected = false;
+    public String getFuel() {
+        return fuel;
     }
 }

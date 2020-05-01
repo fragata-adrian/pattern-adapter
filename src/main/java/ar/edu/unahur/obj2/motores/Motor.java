@@ -1,9 +1,25 @@
 package ar.edu.unahur.obj2.motores;
 
-public abstract class Motor {
-    protected boolean encendido = false;
+public class Motor {
+    protected int caballosDeFuerza;
+    protected String transmision;
+    protected String combustible;
 
-    abstract public void encender();
-    abstract public void acelerar();
-    abstract public void apagar();
+    public Motor(int caballosDeFuerza, String transmision, String combustible) {
+        this.caballosDeFuerza = caballosDeFuerza;
+        this.transmision = transmision;
+        this.combustible = combustible;
+    }
+
+    public int getCaballosDeFuerza() {
+        return caballosDeFuerza;
+    }
+
+    public String getTransmision() {
+        return transmision;
+    }
+
+    public String getCombustible() {
+        return combustible;
+    }
 }
