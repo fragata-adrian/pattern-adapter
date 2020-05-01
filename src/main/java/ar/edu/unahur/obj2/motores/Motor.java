@@ -1,9 +1,10 @@
 package ar.edu.unahur.obj2.motores;
 
 public interface Motor {
-     int getCaballosDeFuerza();
 
-     String getTransmision();
+    int getCaballosDeFuerza();
 
-     String getCombustible();
+    String getTransmision();
+
+    String getCombustible();
 }

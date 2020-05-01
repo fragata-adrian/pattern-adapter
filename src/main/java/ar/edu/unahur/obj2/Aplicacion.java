@@ -2,6 +2,8 @@ package ar.edu.unahur.obj2;
 
 import ar.edu.unahur.obj2.motores.MotorDeportivo;
 import ar.edu.unahur.obj2.motores.MotorEconomico;
+import ar.edu.unahur.obj2.motores.MotorElectrico;
+import ar.edu.unahur.obj2.motores.AdaptadorMotorElectrico;
 
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class Aplicacion {
         System.out.println("Elija que modelo de auto desea:");
         System.out.println("1- Modelo Economico");
         System.out.println("2- Modelo Deportivo");
-        //System.out.println("3- Modelo Electrico");
+        System.out.println("3- Modelo Electrico");
 
         int seleccion = entrada.nextInt();
 
@@ -26,7 +28,7 @@ public class Aplicacion {
                 autoCreado = new Auto("Sport", new MotorDeportivo());
                 break;
             case 3:
-                autoCreado = new Auto("Electric", null); //Implementar tipo de motor
+                autoCreado = new Auto("Electric", new AdaptadorMotorElectrico(new MotorElectrico()));
                 break;
         }
 
