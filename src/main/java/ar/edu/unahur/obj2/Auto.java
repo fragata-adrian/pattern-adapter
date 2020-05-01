@@ -1,5 +1,4 @@
 package ar.edu.unahur.obj2;
-
 import ar.edu.unahur.obj2.motores.Motor;
 
 public class Auto {
