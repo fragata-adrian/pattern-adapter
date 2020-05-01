@@ -1,6 +1,5 @@
 package ar.edu.unahur.obj2;
 
-import ar.edu.unahur.obj2.motores.Motor;
 import ar.edu.unahur.obj2.motores.MotorDeportivo;
 import ar.edu.unahur.obj2.motores.MotorEconomico;
 

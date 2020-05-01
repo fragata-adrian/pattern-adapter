@@ -1,25 +1,9 @@
 package ar.edu.unahur.obj2.motores;
 
-public class Motor {
-    protected int caballosDeFuerza;
-    protected String transmision;
-    protected String combustible;
+public interface Motor {
+     int getCaballosDeFuerza();
 
-    public Motor(int caballosDeFuerza, String transmision, String combustible) {
-        this.caballosDeFuerza = caballosDeFuerza;
-        this.transmision = transmision;
-        this.combustible = combustible;
-    }
+     String getTransmision();
 
-    public int getCaballosDeFuerza() {
-        return caballosDeFuerza;
-    }
-
-    public String getTransmision() {
-        return transmision;
-    }
-
-    public String getCombustible() {
-        return combustible;
-    }
+     String getCombustible();
 }
