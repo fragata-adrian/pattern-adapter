@@ -3,7 +3,7 @@
 ## La era Tesla
 
 En la consecionaria tenemos un sistema que permite a los clientes elegir el tipo de motor para el auto que desean comprar.
-El sistema trabaja con diferentes tipos de motores (Común, Económico) que comparten características comunes así como su funcionamiento. Dependiendo el tipo de motor que se elija este ira acompañado de un tipo de transmision y combustible.
+Este sistema trabaja con diferentes tipos de motores (Común, Económico) que comparten características comunes así como su funcionamiento. Dependiendo el tipo de motor que se elija este ira acompañado de un tipo de transmision y combustible.
 
 Desde California, Estados unidos. Tesla, Inc. nos envía su nuevo motor eléctrico para modernizar nuestros vehículos.
 Deducimos que si bien es un motor no puede tener un tratamiento igual al de los demás, ya que el modo de encenderlo, ponerlo en funcionamiento y hasta apagarlo podría ser muy distinto y podría afectar la lógica establecida.
